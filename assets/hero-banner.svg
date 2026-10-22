@@ -105,7 +105,7 @@
 
   <!-- Subtitle Paragraph -->
   <text x="44" y="202" fill="#94A3B8" font-size="14.5" font-weight="400" class="sans-text">
-    Rooted in robust <tspan fill="#CBD5E1" font-weight="600">PHP &amp; Laravel enterprise backend architecture</tspan>, evolved into applied
+    Rooted in robust <tspan fill="#CBD5E1" font-weight="600">PHP enterprise backend architecture</tspan>, evolved into applied
   </text>
   <text x="44" y="226" fill="#94A3B8" font-size="14.5" font-weight="400" class="sans-text">
     <tspan fill="#38BDF8" font-weight="600">Deep Learning Audio DSP</tspan>, forced alignment algorithms, and zero-dependency reverse engineering.
@@ -116,7 +116,7 @@
     <!-- Pill 1 -->
     <rect x="0" y="0" width="168" height="34" rx="8" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
     <circle cx="16" cy="17" r="4" fill="#777BB4" />
-    <text x="28" y="22" fill="#E2E8F0" font-size="12" font-weight="600" class="sans-text">PHP • Laravel Origins</text>
+    <text x="28" y="22" fill="#E2E8F0" font-size="12" font-weight="600" class="sans-text">PHP Backend Origins</text>
 
     <!-- Pill 2 -->
     <rect x="180" y="0" width="186" height="34" rx="8" fill="#0F172A" stroke="#1E293B" stroke-width="1" />

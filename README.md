@@ -30,7 +30,7 @@
       <h4>🧱 The Foundation: Enterprise PHP & Web Architecture</h4>
       <p>My career was forged in the core of <b>PHP & Web Backend Architecture</b>. Over years of hands-on building, I mastered:</p>
       <ul>
-        <li><b>Enterprise Frameworks:</b> Designing modular, scalable architectures using <b>Laravel & Lumen</b>.</li>
+        <li><b>Enterprise Architecture:</b> Designing modular, scalable backend systems using <b>PHP &amp; Modern Design Patterns</b>.</li>
         <li><b>Data Integrity & Scale:</b> Complex relational database modeling, indexing optimization, and query performance tuning in <b>MySQL</b>.</li>
         <li><b>API Systems:</b> High-throughput RESTful services, asynchronous job queues, webhook consumers, and multi-tier authentication.</li>
       </ul>
@@ -148,8 +148,8 @@
   <tr>
     <td width="33%" align="center" valign="top">
       <h4>🚀 Core Backend</h4>
-      <img src="https://skillicons.dev/icons?i=php,laravel,python,ts,nodejs&perline=5" /><br/><br/>
-      <code>PHP 8.x (Laravel / Lumen)</code><br/>
+      <img src="https://skillicons.dev/icons?i=php,python,ts,nodejs,mysql&perline=5" /><br/><br/>
+      <code>PHP 8.x (OOP &amp; Design Patterns)</code><br/>
       <code>Python 3.10+ (AsyncIO / Ctypes)</code><br/>
       <code>TypeScript / Node.js</code><br/>
       <code>MySQL / Redis Caching</code><br/>
