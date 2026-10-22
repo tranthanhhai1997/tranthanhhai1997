@@ -24,7 +24,7 @@ const engineer = {
   role:    "Senior Software Engineer · Audio DSP & AI Systems",
   origin:  "PHP / Laravel enterprise backend architecture",
   now:     ["Deep-Learning Audio DSP", "Forced Alignment", "Reverse Engineering"],
-  stack:   { backend: ["PHP", "Laravel", "MySQL", "Redis"],
+  stack:   { backend: ["PHP", "Python", "Laravel", "Laminas", "MySQL", "Redis"],
              ai:      ["PyTorch", "Demucs v4", "MMS-FA", "Faster-Whisper"] },
   motto:   "Clean code · minimal latency · zero unnecessary dependencies",
 };
@@ -152,7 +152,7 @@ const engineer = {
       <h4>🧩 Core Backend</h4>
       <img src="https://skillicons.dev/icons?i=php,laravel,python,ts,mysql&perline=5" /><br/><br/>
       <code>PHP 8.x · OOP &amp; Patterns</code><br/>
-      <code>Laravel / Lumen</code><br/>
+      <code>Laravel · Laminas · Lumen</code><br/>
       <code>Python 3.10+ · AsyncIO / Ctypes</code><br/>
       <code>TypeScript · Node.js</code><br/>
       <code>MySQL · Redis · REST / MVC</code>
