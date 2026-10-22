@@ -10,11 +10,12 @@
   <a href="#-about-me">About Me</a> •
   <a href="#-featured-open-source-projects">Featured Projects</a> •
   <a href="#-tech-stack--arsenal">Tech Stack</a> •
-  <a href="#-github-metrics">GitHub Stats</a>
+  <a href="#-github-metrics">GitHub Stats</a> •
+  <a href="#-connect-with-me">Connect</a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Role-Software%20Engineer-0284c7?style=flat-square&logo=powershell&logoColor=white" />
+  <img src="https://img.shields.io/badge/Role-Software%20Engineer-0284c7?style=flat-square&logo=visualstudiocode&logoColor=white" />
   <img src="https://img.shields.io/badge/Origin-PHP%20%2F%20Laravel%20Dev-777BB4?style=flat-square&logo=php&logoColor=white" />
   <img src="https://img.shields.io/badge/Focus-AI%20Audio%20%26%20Automation-10b981?style=flat-square&logo=pytorch&logoColor=white" />
   <img src="https://img.shields.io/github/followers/tranthanhhai1997?label=Followers&style=flat-square&color=38bdf8" />
@@ -27,22 +28,22 @@
 
 ### 👨‍💻 About Me
 
-Xin chào! Tôi là **Trần Thanh Hải**, một **Software Engineer** với niềm đam mê sâu sắc về kiến trúc hệ thống, trí tuệ nhân tạo và xử lý tín hiệu âm thanh:
+Hello! I'm **Trần Thanh Hải**, a versatile **Software Engineer** passionate about building robust backend architectures, digital signal processing (DSP), and applied artificial intelligence.
 
-- 🧱 **Nền tảng & Xuất phát điểm (Rooted in PHP):** 
-  Khởi đầu hành trình từ một **PHP & Web Developer**, làm chủ hệ sinh thái **Laravel, Lumen, MySQL, RESTful API và Web Architecture**. Nền tảng tư duy backend này đã rèn luyện cho tôi khả năng thiết kế hệ thống vững chắc, logic chặt chẽ và khả năng giải quyết bài toán hiệu năng cao.
+- 🧱 **Origin & Roots (PHP & Web Architecture):**
+  My engineering journey started in the **PHP & Web Ecosystem**, mastering **Laravel, Lumen, MySQL, RESTful API design, and scalable backend architecture**. This foundation instilled a disciplined mindset for clean code structure, database query optimization, and high-performance server logic.
 
-- 🚀 **Chuyển mình sang AI & Audio Engineering:** 
-  Tận dụng tư duy kiến trúc hệ thống, tôi mở rộng nghiên cứu sâu sang **AI Audio, Deep Learning & DSP (Digital Signal Processing)**:
-  - Bóc tách nhạc & giọng hát chất lượng phòng thu (*Demucs v4*).
-  - Căn chỉnh lời bài hát mili-giây cho Karaoke (*Meta MMS:FA CTC Forced Alignment & Faster-Whisper*).
-  - Nhận diện dấu vân tay âm thanh chống lách bản quyền (*Chroma-12 FFT Invariant Fingerprinting*).
+- 🚀 **Evolution into AI Engineering & Audio DSP:**
+  Leveraging my backend architectural roots, I expanded deeply into **Deep Learning, Audio Signal Processing & Speech Synthesis**:
+  - Studio-grade stem separation and vocal isolation (*Demucs v4*).
+  - Sub-millisecond lyric-to-audio forced alignment (*Meta MMS_FA / CTC Trellis & Faster-Whisper*).
+  - Pitch & tempo invariant audio fingerprinting for copyright verification (*Chroma-12 FFT*).
 
-- ⚡ **Kỹ nghệ đảo ngược (Reverse Engineering):** 
-  Phân tích giao thức truyền thông, giải mã thuật toán chữ ký mã hóa (RSA PKCS#1 v1.5), mô phỏng phiên làm việc và đóng gói các API nội bộ phức tạp thành các SDK nhẹ, không phụ thuộc thư viện rườm rà.
+- ⚡ **Reverse Engineering & System Emulation:**
+  Analyzing proprietary protocols, implementing cryptographic signature schemes (pure Python RSA PKCS#1 v1.5), and packaging undocumented internal APIs into standalone, zero-dependency microservices.
 
-- 🎯 **Triết lý kỹ thuật:** 
-  *"Code sạch, kiến trúc gọn, ưu tiên hiệu năng thực chiến và hạn chế tối đa dependencies dư thừa."*
+- 🎯 **Engineering Philosophy:**
+  *"Clean architecture, robust fundamentals, zero unnecessary bloatware, and tools that run reliably out of the box."*
 
 ---
 
@@ -52,19 +53,19 @@ Xin chào! Tôi là **Trần Thanh Hải**, một **Software Engineer** với ni
   <tr>
     <td width="50%" valign="top">
       <h4>🎤 <a href="https://github.com/tranthanhhai1997/auto-karaoke-maker">Auto-Karaoke Maker</a></h4>
-      <p>Hệ thống tự động biến bài hát thành Video Karaoke 1080p với chữ chạy highlight nốt ngân chuẩn xác như phòng hát dịch vụ.</p>
+      <p>Automated pipeline turning any song into 1080p Karaoke video with millisecond syllable highlight tracking, Demucs stem separation & ASS subtitle generation.</p>
       <p>
-        <img src="https://img.shields.io/badge/Meta%20MMS:FA-CTC-blue?style=flat-square" />
+        <img src="https://img.shields.io/badge/Meta%20MMS:FA-CTC%20Alignment-blue?style=flat-square" />
         <img src="https://img.shields.io/badge/Demucs%20v4-Stems-green?style=flat-square" />
         <img src="https://img.shields.io/badge/FFmpeg-1080p-orange?style=flat-square" />
       </p>
     </td>
     <td width="50%" valign="top">
       <h4>🔍 <a href="https://github.com/tranthanhhai1997/music-copyright-hunter">Music Copyright & Re-upload Hunter</a></h4>
-      <p>Quét bản quyền âm nhạc & phát hiện re-up YouTube/TikTok bằng Chroma-12 FFT Audio Fingerprinting, miễn nhiễm với lách pitch & tempo.</p>
+      <p>High-speed audio copyright scanner & re-upload detection engine using Chroma-12 FFT fingerprinting, resilient against pitch shifting and speed changes.</p>
       <p>
         <img src="https://img.shields.io/badge/Chroma--12-FFT-purple?style=flat-square" />
-        <img src="https://img.shields.io/badge/Pitch%20Invariant-Key%20Shift-red?style=flat-square" />
+        <img src="https://img.shields.io/badge/Invariant-Key%20%26%20Tempo-red?style=flat-square" />
         <img src="https://img.shields.io/badge/Stream%20Slice-40s-blue?style=flat-square" />
       </p>
     </td>
@@ -72,16 +73,16 @@ Xin chào! Tôi là **Trần Thanh Hải**, một **Software Engineer** với ni
   <tr>
     <td width="50%" valign="top">
       <h4>🎵 <a href="https://github.com/tranthanhhai1997/suno-master-prompt-builder">Suno Master Cheatsheet & Prompt Builder</a></h4>
-      <p>Chuyên gia sáng tác thơ vần điệu & kiến trúc sư Prompt Suno AI (v5 / v6 / v6-wild) chuẩn Studio với Web UI và CLI tự động hóa 100%.</p>
+      <p>AI songwriting & prompt architecture studio for Suno AI (v5 / v6 / v6-wild), featuring a Vietnamese poetry rhyming engine and built-in local Web UI.</p>
       <p>
         <img src="https://img.shields.io/badge/Suno%20AI-v5%20%7C%20v6-yellow?style=flat-square" />
         <img src="https://img.shields.io/badge/Poetry%20Engine-Vietnamese-red?style=flat-square" />
-        <img src="https://img.shields.io/badge/Zero%20Pip-Built--in%20Web-blue?style=flat-square" />
+        <img src="https://img.shields.io/badge/Zero%20Pip-Local%20Web%20UI-blue?style=flat-square" />
       </p>
     </td>
     <td width="50%" valign="top">
       <h4>🎬 <a href="https://github.com/tranthanhhai1997/ai-video-translator-and-dubbing">AI Video Translator & Dubbing</a></h4>
-      <p>Tải video đa nền tảng không watermark (TikTok, Douyin, YouTube), bóc phụ đề Whisper, dịch thuật AI và tự động lồng tiếng ElevenLabs.</p>
+      <p>Watermark-free video downloader (TikTok, Douyin, YouTube), contextual Whisper subtitle transcription, AI translation and ElevenLabs auto-dubbing with audio ducking.</p>
       <p>
         <img src="https://img.shields.io/badge/yt--dlp-No%20Watermark-red?style=flat-square" />
         <img src="https://img.shields.io/badge/Whisper-ASR-blue?style=flat-square" />
@@ -97,13 +98,13 @@ Xin chào! Tôi là **Trần Thanh Hải**, một **Software Engineer** với ni
 
 <div align="center">
 
-| Lĩnh vực | Công nghệ / Frameworks |
+| Domain | Technologies & Frameworks |
 | :--- | :--- |
 | **Backend & Core** | `PHP (Laravel, Lumen)`, `Python`, `Node.js`, `TypeScript`, `MySQL`, `RESTful APIs` |
 | **AI & Audio DSP** | `PyTorch`, `Torchaudio (MMS_FA)`, `Faster-Whisper`, `Demucs v4`, `NumPy`, `Scipy (FFT)` |
 | **Media & Automation** | `FFmpeg`, `yt-dlp`, `Aegisub (.ass subtitles)`, `Audio Ducking`, `Video Remuxing` |
 | **Reverse Engineering** | `RSA Cryptography`, `ByteDance CapCut API`, `Protocol Emulation`, `Frida / CDP` |
-| **DevOps & Tools** | `Docker`, `Git / GitHub Actions`, `Linux / Bash`, `Windows PowerShell`, `VS Code` |
+| **DevOps & Tooling** | `Docker`, `Git / GitHub Actions`, `Linux / Bash`, `Windows PowerShell`, `VS Code` |
 
 <br/>
 
@@ -130,7 +131,7 @@ Xin chào! Tôi là **Trần Thanh Hải**, một **Software Engineer** với ni
 
 <div align="center">
 
-### 🤝 Let's Connect
+### 🤝 Connect with Me
 
 <p>
   <a href="https://github.com/tranthanhhai1997"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github" /></a>
