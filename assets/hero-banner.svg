@@ -1,0 +1,147 @@
+<svg width="1000" height="340" viewBox="0 0 1000 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070B14" />
+      <stop offset="50%" stop-color="#0D1527" />
+      <stop offset="100%" stop-color="#05080F" />
+    </linearGradient>
+
+    <!-- Border Glow Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8" />
+      <stop offset="35%" stop-color="#818CF8" stop-opacity="0.3" />
+      <stop offset="70%" stop-color="#10B981" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.1" />
+    </linearGradient>
+
+    <!-- Name Text Gradient -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="60%" stop-color="#E2E8F0" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+
+    <!-- Radial Glows -->
+    <radialGradient id="cyanGlow" cx="15%" cy="20%" r="50%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="purpleGlow" cx="85%" cy="80%" r="50%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="rgba(255, 255, 255, 0.03)" stroke-width="1" />
+    </pattern>
+
+    <style>
+      .mono-text { font-family: 'Fira Code', 'JetBrains Mono', 'Courier New', monospace; }
+      .sans-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      
+      @keyframes pulse {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.4; transform: scale(1.1); }
+      }
+      .status-dot {
+        animation: pulse 2.2s ease-in-out infinite;
+        transform-origin: 52px 42px;
+      }
+
+      @keyframes wave-anim {
+        0%, 100% { height: 12px; y: 190px; }
+        50% { height: 46px; y: 156px; }
+      }
+      @keyframes wave-anim-2 {
+        0%, 100% { height: 38px; y: 164px; }
+        50% { height: 16px; y: 186px; }
+      }
+      @keyframes wave-anim-3 {
+        0%, 100% { height: 22px; y: 180px; }
+        50% { height: 54px; y: 148px; }
+      }
+      @keyframes wave-anim-4 {
+        0%, 100% { height: 50px; y: 152px; }
+        50% { height: 20px; y: 182px; }
+      }
+      @keyframes wave-anim-5 {
+        0%, 100% { height: 18px; y: 184px; }
+        50% { height: 42px; y: 160px; }
+      }
+
+      .bar-1 { animation: wave-anim 1.4s ease-in-out infinite; }
+      .bar-2 { animation: wave-anim-2 1.6s ease-in-out infinite 0.2s; }
+      .bar-3 { animation: wave-anim-3 1.3s ease-in-out infinite 0.4s; }
+      .bar-4 { animation: wave-anim-4 1.5s ease-in-out infinite 0.1s; }
+      .bar-5 { animation: wave-anim-5 1.7s ease-in-out infinite 0.3s; }
+    </style>
+  </defs>
+
+  <!-- Base Card with Border -->
+  <rect x="2" y="2" width="996" height="336" rx="16" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="2" />
+  
+  <!-- Glow Overlays -->
+  <rect x="2" y="2" width="996" height="336" rx="16" fill="url(#cyanGlow)" />
+  <rect x="2" y="2" width="996" height="336" rx="16" fill="url(#purpleGlow)" />
+  <rect x="2" y="2" width="996" height="336" rx="16" fill="url(#grid)" />
+
+  <!-- Top Status Bar -->
+  <g transform="translate(40, 32)">
+    <circle cx="12" cy="10" r="4" fill="#10B981" class="status-dot" />
+    <circle cx="12" cy="10" r="8" fill="#10B981" fill-opacity="0.25" />
+    <text x="32" y="14" fill="#34D399" font-size="12" font-weight="600" class="mono-text" letter-spacing="1.5">AVAILABLE FOR ARCHITECTURE &amp; AI COLLABORATIONS</text>
+    <text x="890" y="14" fill="#64748B" font-size="12" font-weight="500" class="mono-text" text-anchor="end">SYS_STATUS: ACTIVE // 2026</text>
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="40" y1="62" x2="960" y2="62" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+
+  <!-- Main Hero Content -->
+  <!-- Name -->
+  <text x="44" y="125" fill="url(#textGrad)" font-size="46" font-weight="800" class="sans-text" letter-spacing="-0.5">Trần Thanh Hải</text>
+  <text x="44" y="162" fill="#38BDF8" font-size="17" font-weight="600" class="mono-text" letter-spacing="1">SENIOR SOFTWARE ENGINEER • AUDIO DSP &amp; AI SYSTEMS</text>
+
+  <!-- Subtitle Paragraph -->
+  <text x="44" y="202" fill="#94A3B8" font-size="14.5" font-weight="400" class="sans-text">
+    Rooted in robust <tspan fill="#CBD5E1" font-weight="600">PHP &amp; Laravel enterprise backend architecture</tspan>, evolved into applied
+  </text>
+  <text x="44" y="226" fill="#94A3B8" font-size="14.5" font-weight="400" class="sans-text">
+    <tspan fill="#38BDF8" font-weight="600">Deep Learning Audio DSP</tspan>, forced alignment algorithms, and zero-dependency reverse engineering.
+  </text>
+
+  <!-- Bottom Interactive Tags / Pills -->
+  <g transform="translate(44, 260)">
+    <!-- Pill 1 -->
+    <rect x="0" y="0" width="168" height="34" rx="8" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+    <circle cx="16" cy="17" r="4" fill="#777BB4" />
+    <text x="28" y="22" fill="#E2E8F0" font-size="12" font-weight="600" class="sans-text">PHP • Laravel Origins</text>
+
+    <!-- Pill 2 -->
+    <rect x="180" y="0" width="186" height="34" rx="8" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+    <circle cx="196" cy="17" r="4" fill="#38BDF8" />
+    <text x="208" y="22" fill="#E2E8F0" font-size="12" font-weight="600" class="sans-text">Demucs v4 • Audio Stems</text>
+
+    <!-- Pill 3 -->
+    <rect x="378" y="0" width="186" height="34" rx="8" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+    <circle cx="394" cy="17" r="4" fill="#10B981" />
+    <text x="406" y="22" fill="#E2E8F0" font-size="12" font-weight="600" class="sans-text">MMS:FA • CTC Alignment</text>
+
+    <!-- Pill 4 -->
+    <rect x="576" y="0" width="180" height="34" rx="8" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+    <circle cx="592" cy="17" r="4" fill="#A855F7" />
+    <text x="604" y="22" fill="#E2E8F0" font-size="12" font-weight="600" class="sans-text">Chroma-12 FFT Fingerprint</text>
+  </g>
+
+  <!-- Right Side Visualizer: Animated Audio Spectrum Waves -->
+  <g transform="translate(860, 0)">
+    <rect x="0" y="190" width="6" height="12" rx="3" fill="#38BDF8" class="bar-1" />
+    <rect x="14" y="164" width="6" height="38" rx="3" fill="#818CF8" class="bar-2" />
+    <rect x="28" y="180" width="6" height="22" rx="3" fill="#34D399" class="bar-3" />
+    <rect x="42" y="152" width="6" height="50" rx="3" fill="#38BDF8" class="bar-4" />
+    <rect x="56" y="184" width="6" height="18" rx="3" fill="#A855F7" class="bar-5" />
+    <rect x="70" y="168" width="6" height="34" rx="3" fill="#38BDF8" class="bar-2" />
+  </g>
+
+</svg>

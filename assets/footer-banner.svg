@@ -1,0 +1,26 @@
+<svg width="1000" height="110" viewBox="0 0 1000 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080D1A" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+    <linearGradient id="footerBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.1" />
+      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0.1" />
+    </linearGradient>
+    <style>
+      .footer-quote { font-family: 'Fira Code', monospace; font-size: 13.5px; fill: #94A3B8; }
+      .footer-sub { font-family: -apple-system, sans-serif; font-size: 12px; fill: #64748B; }
+    </style>
+  </defs>
+
+  <rect x="2" y="2" width="996" height="106" rx="12" fill="url(#footerBg)" stroke="url(#footerBorder)" stroke-width="1.5" />
+
+  <text x="500" y="48" text-anchor="middle" class="footer-quote">
+    &quot;Crafting scalable architectures from bare-metal logic to machine intelligence.&quot;
+  </text>
+  <text x="500" y="76" text-anchor="middle" class="footer-sub">
+    Designed with Precision • Trần Thanh Hải © 2026 • Powered by Antigravity AI
+  </text>
+</svg>
